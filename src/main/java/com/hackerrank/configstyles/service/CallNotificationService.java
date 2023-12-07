@@ -1,7 +1,7 @@
 package com.hackerrank.configstyles.service;
 
 public class CallNotificationService implements NotificationService {
-    private String serviceName;
+    private final String serviceName;
 
     public CallNotificationService(String serviceName) {
         this.serviceName = serviceName;

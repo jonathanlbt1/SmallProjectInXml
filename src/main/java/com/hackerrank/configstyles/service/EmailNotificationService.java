@@ -2,9 +2,11 @@ package com.hackerrank.configstyles.service;
 
 
 public class EmailNotificationService implements NotificationService {
-    private String serviceName;
+    private final String serviceName;
+
 
     public EmailNotificationService(String serviceName) {
+
         this.serviceName = serviceName;
     }
 
